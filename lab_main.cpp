@@ -1,6 +1,8 @@
 #include "lab1.h"
 
 int main() {
+  setlocale(LC_ALL, "Russian");
+  
   std::cout << "Выбери номер задачи:" << std::endl;
   std::cout << "2 - sumLastNums (int x)" << std::endl;
   std::cout << "4 - isPositive(int x)" << std::endl;
